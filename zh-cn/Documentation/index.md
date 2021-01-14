@@ -158,9 +158,9 @@ Orleans运行任何支持.NETCore或.NETFramework的地方。这包括在Linux�
 
 夜间生成发布到<https://dotnet.myget.org/gallery/orleans-ci>. 这些构建通过了所有的功能测试，但是没有像发布到NuGet的稳定版本或预发布版本那样进行彻底测试。
 
-### 在项目中使用夜间构建包
+### 在项目中使用轻量构建包
 
-要在项目中使用夜间生成，请使用以下任一方法添加MyGet提要：
+要在项目中使用轻量包，请使用以下任一方法添加MyGet来源：
 
 1.  更改.csproj文件以包含此节：
 
